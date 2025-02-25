@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+@theme{
+
+    --color-primary: #111878; 
+  
+    /* --gridTemplateColumns:{
+      'auto':'repeat(auto-fill,minmax(200px, 1fr))'
+    }  */
+  
+  
+  }
+
+  ::-webkit-scrollbar{
+    @apply hidden;
+  }
+
+  *{
+    font-family:Outfit;
+  }
